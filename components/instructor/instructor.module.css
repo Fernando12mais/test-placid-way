@@ -1,0 +1,21 @@
+.image {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.name {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--secondary-content);
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  .image {
+    width: 10rem;
+    height: 10rem;
+  }
+}

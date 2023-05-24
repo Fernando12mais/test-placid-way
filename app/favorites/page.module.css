@@ -1,0 +1,15 @@
+.main {
+  background-color: var(--primary-background);
+  min-height: 80dvh;
+  padding: 1rem;
+}
+
+.link {
+  font-size: 1.5rem;
+  color: var(--primary-action);
+}
+.image {
+  position: relative;
+  width: 8rem;
+  height: 8rem;
+}

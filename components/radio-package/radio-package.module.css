@@ -1,0 +1,28 @@
+.title,
+.price {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.description,
+.total {
+  margin: 0;
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+.details {
+  color: var(--secondary-content);
+  font-size: 0.75rem;
+}
+
+.total {
+  font-size: 0.75rem;
+}
+.label {
+  padding: 0.5rem;
+  width: 100%;
+}
+.selected {
+  background-color: var(--primary-action-light);
+}
