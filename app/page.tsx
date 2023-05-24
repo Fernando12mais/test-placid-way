@@ -148,13 +148,13 @@ export default function Home() {
         </p>
         <div className="my-3">
           <Calendar
-            tileDisabled={({ date }) => {
+            tileDisabled={({ date }: any) => {
               return (
                 date.getTime() < new Date().getTime() ||
                 (date.getDay() != 0 && date.getDay() != 6)
               );
             }}
-            tileClassName={({ date }) => {
+            tileClassName={({ date }: any) => {
               const finalDate = new Date(
                 selectedDay.getFullYear(),
                 selectedDay.getMonth(),
@@ -169,7 +169,7 @@ export default function Home() {
                 return styles["date-selected"];
             }}
             value={selectedDay}
-            onChange={(date) => setSelectedDay(date as Date)}
+            onChange={(date: any) => setSelectedDay(date as Date)}
           />
         </div>
 
