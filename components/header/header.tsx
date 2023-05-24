@@ -20,7 +20,15 @@ export default function Header() {
           customCrossIcon={
             <CrossIcon className={`${styles["icon"]} ${styles["icon-fill"]}`} />
           }
-        />
+        >
+          <li>Useful links</li>
+          <li>Useful links</li>
+          <li>Useful links</li>
+
+          <li>Useful links</li>
+          <li>Useful links</li>
+          <li>Useful links</li>
+        </Menu>
         <div className={`content-wrapper ${styles["nav-wrapper"]}`}>
           <Link href="/">
             <LogoIcon className={`${styles["icon"]} ${styles["icon-fill"]}`} />
